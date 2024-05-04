@@ -1,3 +1,9 @@
+.cabecera{
+    background-color: white;
+}
+.enlaces{
+    align-items: flex-end;
+}
 .Parrafo{
     align-items: center;
     color: rgb(39, 41, 40);
