@@ -1,14 +1,36 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    
+}
+ul{
+    display: flex;
+    gap:10px;
+    list-style: none !important;
+} 
 .cabecera{
+
     background-color: white;
+    display: flex;
+    justify-content: space-between;
 }
+
 .enlaces{
-    align-items: flex-end;
-}
-.Parrafo{
     align-items: center;
+}
+
+.Parrafo{
     color: rgb(39, 41, 40);
 }
 
-.imagenes{
+.Imagenes{
     border-radius: 50%;
+}
+
+img[alt]{
+    border-radius: 150px;
+    width: 200px;
+    height: 200px;
+    color: blue;
 }
